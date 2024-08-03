@@ -51,7 +51,7 @@ function home() {
                   </ul>
                 </nav>
                 {/* /.main-header__nav */}
-                <a href="#" className="main-header__search search-toggler">
+                <a href="/" className="main-header__search search-toggler">
                   <span className="main-header__search__icon">
                     <i className="icon-search" aria-hidden="true" />
                     <span className="sr-only">Search</span>
@@ -122,7 +122,7 @@ function home() {
         {/* /.main-slider-one__image-right__inner */}
         <img
           src="assets/images/main-slider/ahmed-sir.png"
-          alt="slider image"
+          alt="sliderimage"
           className="main-slider-one__image-right__image"
         />
       </div>
@@ -220,7 +220,7 @@ function home() {
         {/* /.main-slider-one__image-right__inner */}
         <img
           src="assets/images/main-slider/ahlam-mam.png"
-          alt="slider image"
+          alt="sliderimage"
           className="main-slider-one__image-right__image"
         />
       </div>
@@ -383,7 +383,7 @@ function home() {
                           <i className="icon-checked" />
                         </span>
                         <a
-                          href="#"
+                          href="/"
                           className="about-one__list__link"
                         >
                           Event Management.
@@ -398,7 +398,7 @@ function home() {
                           <i className="icon-checked" />
                         </span>
                         <a
-                          href="#"
+                          href="/"
                           className="about-one__list__link"
                         >
                           Technical Team.
@@ -413,7 +413,7 @@ function home() {
                           <i className="icon-checked" />
                         </span>
                         <a
-                          href="#"
+                          href="/"
                           className="about-one__list__link"
                         >
                           Creative & Social Media Team.
@@ -428,7 +428,7 @@ function home() {
                           <i className="icon-checked" />
                         </span>
                         <a
-                          href="#"
+                          href="/"
                           className="about-one__list__link"
                         >
                           Public Relation.
@@ -1593,7 +1593,7 @@ function home() {
       {/* /.search-popup__content */}
     </div>
     {/* /.search-popup */}
-    <a href="#" data-target="html" className="scroll-to-target scroll-to-top">
+    <a href="/" data-target="html" className="scroll-to-target scroll-to-top">
       <span className="scroll-to-top__text">back top</span>
       <span className="scroll-to-top__wrapper">
         <span className="scroll-to-top__inner" />

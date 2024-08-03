@@ -675,7 +675,7 @@ function about() {
       {/* /.container */}
       <img
         src="assets/images/resources/page-header-1-1.png"
-        alt="image"
+        alt="header"
         className="page-header__image"
       />
       <img
@@ -758,7 +758,7 @@ function about() {
                       <span className="about-one__list__icon">
                         <i className="fas fa-chevron-right" />
                       </span>
-                      <a href="#" className="about-one__list__link">
+                      <a href="/" className="about-one__list__link">
                         Travel of Insurance
                       </a>
                     </div>
@@ -770,7 +770,7 @@ function about() {
                       <span className="about-one__list__icon">
                         <i className="fas fa-chevron-right" />
                       </span>
-                      <a href="#" className="about-one__list__link">
+                      <a href="/" className="about-one__list__link">
                         Get a free quote
                       </a>
                     </div>
@@ -782,7 +782,7 @@ function about() {
                       <span className="about-one__list__icon">
                         <i className="fas fa-chevron-right" />
                       </span>
-                      <a href="#" className="about-one__list__link">
+                      <a href="/" className="about-one__list__link">
                         Insurance Services
                       </a>
                     </div>
@@ -794,7 +794,7 @@ function about() {
                       <span className="about-one__list__icon">
                         <i className="fas fa-chevron-right" />
                       </span>
-                      <a href="#" className="about-one__list__link">
+                      <a href="/" className="about-one__list__link">
                         We Car Insurance
                       </a>
                     </div>
@@ -1911,7 +1911,7 @@ function about() {
                   <div className="why-choose-one__image">
                     <img
                       src="assets/images/why-choose/why-choose-1-1.jpg"
-                      alt="choose image"
+                      alt="chooseimage"
                     />
                     <span className="why-choose-one__image__star-text">*</span>
                     {/* /.why-choose-one__image__star-text */}
@@ -2009,7 +2009,7 @@ function about() {
                   <div className="why-choose-one__image">
                     <img
                       src="assets/images/why-choose/why-choose-1-2.jpg"
-                      alt="choose image"
+                      alt="chooseimage"
                     />
                     <span className="why-choose-one__image__star-text">*</span>
                     {/* /.why-choose-one__image__star-text */}
@@ -2107,7 +2107,7 @@ function about() {
                   <div className="why-choose-one__image">
                     <img
                       src="assets/images/why-choose/why-choose-1-3.jpg"
-                      alt="choose image"
+                      alt="chooseimage"
                     />
                     <span className="why-choose-one__image__star-text">*</span>
                     {/* /.why-choose-one__image__star-text */}
@@ -2205,7 +2205,7 @@ function about() {
                   <div className="why-choose-one__image">
                     <img
                       src="assets/images/why-choose/why-choose-1-4.jpg"
-                      alt="choose image"
+                      alt="chooseimage"
                     />
                     <span className="why-choose-one__image__star-text">*</span>
                     {/* /.why-choose-one__image__star-text */}
@@ -2303,7 +2303,7 @@ function about() {
                   <div className="why-choose-one__image">
                     <img
                       src="assets/images/why-choose/why-choose-1-5.jpg"
-                      alt="choose image"
+                      alt="chooseimage"
                     />
                     <span className="why-choose-one__image__star-text">*</span>
                     {/* /.why-choose-one__image__star-text */}
@@ -4056,7 +4056,7 @@ function about() {
                     <span className="footer-widget__info__icon">
                       <i className="fas fa-map-marker-alt" />
                     </span>
-                    <a href="#" className="footer-widget__info__text">
+                    <a href="/" className="footer-widget__info__text">
                       {" "}
                       13/A, Miranda Halim City. <br /> Stanhope, IA 50246
                     </a>
@@ -4272,7 +4272,7 @@ function about() {
     {/* /.search-popup__content */}
   </div>
   {/* /.search-popup */}
-  <a href="#" data-target="html" className="scroll-to-target scroll-to-top">
+  <a href="/" data-target="html" className="scroll-to-target scroll-to-top">
     <span className="scroll-to-top__text">back top</span>
     <span className="scroll-to-top__wrapper">
       <span className="scroll-to-top__inner" />
