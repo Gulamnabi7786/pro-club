@@ -327,8 +327,9 @@ function home() {
                     className="about-one__image__one"
                   />
                   <img
-                    src="assets/images/about/about-1-2.jpg"
+                    src="assets/images/about/about.jpg"
                     alt="about"
+                    width={200}
                     className="about-one__image__two"
                   />
                 </div>
