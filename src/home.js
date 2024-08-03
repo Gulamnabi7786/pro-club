@@ -94,7 +94,7 @@ function home() {
 "animateOut": "fadeOut",
 "loop": true,
 "smartSpeed": 700,
-"nav": false,
+"nav": true,
 "dots": true,
 "autoplay": true,
 "navText": ["<i class=\"fas fa-chevron-left\"></i>","<i class=\"fas fa-chevron-right\"></i>"]
@@ -1484,7 +1484,7 @@ function home() {
                     Asil
                   </a>{" "}
                   &{" "}
-                  <a href="http://devgulmanabi.vercel.app" color="white">
+                  <a href="https://devgulamnabi.vercel.app/" color="white">
                     Gulamnabi
                   </a>
                 </p>
