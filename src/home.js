@@ -1,4 +1,5 @@
 import React from "react";
+// import "./js/insuba"
 
 function home() {
   return (
@@ -25,9 +26,9 @@ function home() {
                 {/* /.main-header__logo */}
                 <div className="main-header__right">
                   <div className="mobile-nav__btn mobile-nav__toggler">
-                    <span />
-                    <span />
-                    <span />
+                    <span></span>
+                    <span></span>
+                    <span></span>
                   </div>
                   {/* /.mobile-nav__toggler */}
                   <nav className="main-header__nav main-menu">
@@ -46,6 +47,7 @@ function home() {
                       </li>
                     </ul>
                   </nav>
+                  
                   {/* /.main-header__nav */}
                   <a href="/" className="main-header__search search-toggler">
                     <span className="main-header__search__icon">
