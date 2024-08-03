@@ -7,7 +7,9 @@
   --insuba-text-rgb: 99, 99, 99;
   --insuba-text-gray: #767676;
   --insuba-text-gray-rgb: 118, 118, 118;
-  --insuba-base: #0365d3;
+  --insuba-base: #00297b;
+  /* --insuba-base: #750D37; */
+  /* --insuba-base: #19323C; */
   --insuba-base-rgb: 3, 101, 211;
   --insuba-gray: #e0e0e0;
   --insuba-gray-rgb: 224, 224, 224;
@@ -22844,4 +22846,4 @@ body.boxed-wrapper .main-header__inner::before {
     right: 0;
   }
 }
-/*# sourceMappingURL=insuba.css.map */
+

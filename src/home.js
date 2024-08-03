@@ -8,7 +8,7 @@ function home() {
     <div className="preloader">
     <div
         className="preloader__image"
-        style={{ backgroundImage: "url(assets/images/loader.png)" }}
+        style={{ backgroundImage: "url(assets/images/loader1.png)" }}
       />
     </div>
     {/* /.preloader */}
@@ -18,11 +18,11 @@ function home() {
           <div className="container-fluid">
             <div className="main-header__inner">
               <div className="main-header__logo logo-retina">
-                <a href="index.html">
+                <a href="/">
                   <img
-                    src="assets/images/logo-dark.png"
-                    alt="Insuba HTML"
-                    width={212}
+                    src="assets/images/logo.png"
+                    alt="Logo"
+                    width={180}
                   />
                 </a>
               </div>
@@ -69,7 +69,7 @@ function home() {
                   href="contact.html"
                   className="insuba-btn insuba-btn--base main-header__btn"
                 >
-                  <span>Get a Quote</span>
+                  <span>Connect With Us</span>
                   <span className="insuba-btn__icon-box">
                     <span className="insuba-btn__icon">
                       <i className="fas fa-arrow-right" />
@@ -107,10 +107,6 @@ function home() {
     <div className="main-slider-one__item">
       <div
         className="main-slider-one__image-left"
-        style={{
-          backgroundImage:
-            "url(assets/images/main-slider/main-slider-1-1.png)"
-        }}
       />
       {/* /.main-slider-one__image-left */}
       <div className="main-slider-one__image-right">
@@ -119,13 +115,13 @@ function home() {
             className="main-slider-one__image-right__bg"
             style={{
               backgroundImage:
-                "url(assets/images/main-slider/main-slider-1-2.jpg)"
+                "url(assets/images/main-slider/error404.png)"
             }}
           />
         </div>
         {/* /.main-slider-one__image-right__inner */}
         <img
-          src="assets/images/main-slider/main-slider-1-4.jpg"
+          src="assets/images/main-slider/ahmed-sir.png"
           alt="slider image"
           className="main-slider-one__image-right__image"
         />
@@ -150,19 +146,17 @@ function home() {
               {/* /.main-slider-one__top */}
               <h2 className="main-slider-one__title">
                 <span className="main-slider-one__title__inner">
-                  We Are Insurance Life <br />
-                  Solution
+                Welcome to  <br />
                   <span className="main-slider-one__title__text">
-                    Company.
+                  Programmers club
                   </span>
                 </span>
               </h2>
               {/* /.title */}
               <div className="main-slider-one__description">
                 <p className="main-slider-one__text">
-                  Insurance of the socie where we operate. A success website
-                  obusly needs great design to be one of the top 26+IT
-                  companies Benefit.
+                  Join us to enhance your tech skills, participate in hackathons, workshops, 
+                  and coding competitions, and collaborate on exciting projects. Let’s innovate together!
                 </p>
                 {/* /.text */}
               </div>
@@ -173,7 +167,7 @@ function home() {
                     href="contact.html"
                     className="main-slider-one__btn-1 insuba-btn"
                   >
-                    <span>Contact Us</span>
+                    <span>Connect With Us</span>
                     <span className="insuba-btn__icon-box">
                       <span className="insuba-btn__icon">
                         <i className="fas fa-arrow-right" />
@@ -182,18 +176,6 @@ function home() {
                   </a>
                   {/* /.insuba-btn */}
                 </div>
-                {/* /.main-slider-one__button__inner */}
-                <div className="main-slider-one__button__inner">
-                  <a
-                    href="https://www.youtube.com/watch?v=h9MbznbxlLc"
-                    className="main-slider-one__btn-2 video-btn video-popup"
-                  >
-                    <i className="icon-play" />
-                    <span className="video-btn__ripple" />{" "}
-                  </a>
-                  {/* /.video-btn */}
-                </div>
-                {/* /.main-slider-one__button__inner */}
               </div>
               {/* /.button */}
               <div className="main-slider-one__content__shape-box" />
@@ -223,10 +205,6 @@ function home() {
     <div className="main-slider-one__item">
       <div
         className="main-slider-one__image-left"
-        style={{
-          backgroundImage:
-            "url(assets/images/main-slider/main-slider-1-1.png)"
-        }}
       />
       {/* /.main-slider-one__image-left */}
       <div className="main-slider-one__image-right">
@@ -235,13 +213,13 @@ function home() {
             className="main-slider-one__image-right__bg"
             style={{
               backgroundImage:
-                "url(assets/images/main-slider/main-slider-1-3.jpg)"
+                "url(assets/images/main-slider/banner-2.png)"
             }}
           />
         </div>
         {/* /.main-slider-one__image-right__inner */}
         <img
-          src="assets/images/main-slider/main-slider-1-5.jpg"
+          src="assets/images/main-slider/ahlam-mam.png"
           alt="slider image"
           className="main-slider-one__image-right__image"
         />
@@ -275,9 +253,8 @@ function home() {
               {/* /.title */}
               <div className="main-slider-one__description">
                 <p className="main-slider-one__text">
-                  Thought shower drink the Kool-aid we don't need to boil the
-                  ocean here, yet push back, or we need distributors to
-                  evangelize the new.
+                Join us to enhance your tech skills, participate in hackathons, workshops, 
+                and coding competitions, and collaborate on exciting projects. Let’s innovate together!
                 </p>
                 {/* /.text */}
               </div>
@@ -288,7 +265,7 @@ function home() {
                     href="contact.html"
                     className="main-slider-one__btn-1 insuba-btn"
                   >
-                    <span>Contact Us</span>
+                    <span>Connect With Us</span>
                     <span className="insuba-btn__icon-box">
                       <span className="insuba-btn__icon">
                         <i className="fas fa-arrow-right" />
@@ -297,18 +274,6 @@ function home() {
                   </a>
                   {/* /.insuba-btn */}
                 </div>
-                {/* /.main-slider-one__button__inner */}
-                <div className="main-slider-one__button__inner">
-                  <a
-                    href="https://www.youtube.com/watch?v=h9MbznbxlLc"
-                    className="main-slider-one__btn-2 video-btn video-popup"
-                  >
-                    <i className="icon-play" />
-                    <span className="video-btn__ripple" />{" "}
-                  </a>
-                  {/* /.video-btn */}
-                </div>
-                {/* /.main-slider-one__button__inner */}
               </div>
               {/* /.button */}
               <div className="main-slider-one__content__shape-box" />
@@ -341,64 +306,6 @@ function home() {
 {/* /.main-slider-one */}
 
 
-
-      {/* <div
-        id="carouselExampleIndicators"
-        class="carousel slide"
-        data-ride="carousel"
-      >
-        <ol class="carousel-indicators">
-          <li
-            data-target="#carouselExampleIndicators"
-            data-slide-to="0"
-            class="active"
-          ></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              class="d-block w-100"
-              src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?cs=srgb&dl=pexels-souvenirpixels-417074.jpg&fm=jpg"
-              alt="First slide"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg"
-              alt="Second slide"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg"
-              alt="Third slide"
-            />
-          </div>
-        </div>
-        <a
-          class="carousel-control-prev"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a
-          class="carousel-control-next"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div> */}
-
       <section className="about-one section-space" id="about">
         <div className="container">
           <div className="row gutter-y-50 align-items-center">
@@ -414,8 +321,9 @@ function home() {
                   data-wow-duration="1500ms"
                 >
                   <img
-                    src="assets/images/about/about-1-1.jpg"
-                    alt="about"
+                    src="assets/images/about/trophy.jpg"
+                    alt="about" 
+                    height={200}
                     className="about-one__image__one"
                   />
                   <img
@@ -440,14 +348,14 @@ function home() {
                       <div className="sec-title__box__inner" />
                     </div>
                     {/* /.sec-title__box */}
-                    <h6 className="sec-title__tagline">About Company</h6>
+                    <h6 className="sec-title__tagline">About Club</h6>
                     {/* /.sec-title__tagline */}
                   </div>
                   {/* /.sec-title__top */}
                   <h3 className="sec-title__title">
-                    About This For Insurance <br /> Sine 2024{" "}
+                    Programmer's Club <br /> Since{" "}
                     <span className="sec-title__title__highlight">
-                      Secure.
+                     2016
                     </span>
                   </h3>
                   {/* /.sec-title__title */}
@@ -458,10 +366,8 @@ function home() {
                   data-wow-duration="1500ms"
                 >
                   <p className="about-one__text">
-                    Insurance address a range of simply application and this
-                    of passages of available, but the majority have suffered
-                    exchange for regular payments known as premiums, insurance
-                    company in some form.
+                  The Programmer's Club at Saboo Siddik College of Engineering fosters tech skills through hackathons, 
+                  workshops, and networking, creating a collaborative community.
                   </p>
                 </div>
                 {/* /.about-one__description */}
@@ -476,10 +382,10 @@ function home() {
                           <i className="icon-checked" />
                         </span>
                         <a
-                          href="services.html"
+                          href="#"
                           className="about-one__list__link"
                         >
-                          Travel of Insurance
+                          Event Management.
                         </a>
                       </div>
                       {/* /.about-one__list */}
@@ -491,10 +397,10 @@ function home() {
                           <i className="icon-checked" />
                         </span>
                         <a
-                          href="services.html"
+                          href="#"
                           className="about-one__list__link"
                         >
-                          Get a free quote
+                          Technical Team.
                         </a>
                       </div>
                       {/* /.about-one__list */}
@@ -506,10 +412,10 @@ function home() {
                           <i className="icon-checked" />
                         </span>
                         <a
-                          href="services.html"
+                          href="#"
                           className="about-one__list__link"
                         >
-                          Insurance Services
+                          Creative & Social Media Team.
                         </a>
                       </div>
                       {/* /.about-one__list */}
@@ -521,10 +427,10 @@ function home() {
                           <i className="icon-checked" />
                         </span>
                         <a
-                          href="services.html"
+                          href="#"
                           className="about-one__list__link"
                         >
-                          We Car Insurance
+                          Public Relation.
                         </a>
                       </div>
                       {/* /.about-one__list */}
@@ -541,17 +447,18 @@ function home() {
                   >
                     <div className="about-one__founder__image">
                       <img
-                        src="assets/images/about/about-founder.jpg"
+                        src="assets/images/about/about-small-Ahlam-Ansari.png"
                         alt=""
+                        width={70}
                       />
                     </div>
                     {/* /.about-one__founder__image */}
                     <div className="about-one__founder__info">
                       <h4 className="about-one__founder__name">
-                        <a href="team-details.html">Anton Clark</a>
+                        <a href="/">Er. Ahlam Ansari</a>
                       </h4>
                       <p className="about-one__founder__designation">
-                        Founder
+                      "The Only Thing That Stands Between You and Your Dream is You."
                       </p>
                     </div>
                     {/* /.about-one__founder__info */}
@@ -561,7 +468,7 @@ function home() {
                     className="about-one__button wow fadeInUp"
                     data-wow-duration="1500ms"
                   >
-                    <a href="about.html" className="insuba-btn">
+                    <a href="/about" className="insuba-btn">
                       <span>About More</span>
                       <span className="insuba-btn__icon-box">
                         <span className="insuba-btn__icon">
@@ -570,25 +477,6 @@ function home() {
                       </span>
                     </a>
                     {/* /.insuba-btn */}
-                  </div>
-                  {/* /.about-one__button */}
-                  <div
-                    className="about-one__video wow fadeInUp"
-                    data-wow-duration="1500ms"
-                    data-wow-delay="100ms"
-                  >
-                    <a
-                      href="https://www.youtube.com/watch?v=h9MbznbxlLc"
-                      className="video-btn video-popup"
-                    >
-                      <i className="icon-play" />
-                      <span className="video-btn__ripple" />
-                    </a>
-                    {/* /.video-btn */}
-                    <h4 className="about-one__video__title">
-                      <span>Our Watch</span> <span>Videos</span>
-                    </h4>
-                    {/* /.about-one__video__title */}
                   </div>
                   {/* /.about-one__video */}
                 </div>
@@ -630,12 +518,11 @@ function home() {
                       <div className="sec-title__box__inner" />
                     </div>
                     {/* /.sec-title__box */}
-                    <h6 className="sec-title__tagline">Our All Service</h6>
+                    <h6 className="sec-title__tagline">Our All Events</h6>
                     {/* /.sec-title__tagline */}
                   </div>
                   {/* /.sec-title__top */}
-                  <h3 className="sec-title__title">
-                    We Guide to Insurance <br /> This Best Services
+                  <h3 className="sec-title__title"> Events done by programmer's club<br/>
                   </h3>
                   {/* /.sec-title__title */}
                 </div>
@@ -649,10 +536,7 @@ function home() {
                   data-wow-delay="100ms"
                 >
                   <p className="services-one__text">
-                    Insurance address a range of simply application and thisof
-                    passages of available, but the majority have suffered
-                    exchange regular payments known as premiums, insurance
-                    company in some form.
+                  The Programmer's Club organizes hackathons, workshops, coding competitions, guest lectures,project showcases, networking events, and community service projects to enhance technical skills and foster a collaborative community of tech enthusiasts. Join us!
                   </p>
                   {/* /.services-one__text */}
                 </div>
@@ -702,7 +586,7 @@ function home() {
                   className="service-card__bg"
                   style={{
                     backgroundImage:
-                      "url(assets/images/shapes/service-card-shape-1-1.png)",
+                      "url(assets/images/events/error404.png)",
                   }}
                 />
                 {/* /.service-card__bg */}
@@ -710,22 +594,14 @@ function home() {
                 {/* /.service-card__shape */}
                 <div className="service-card__content">
                   <div className="service-card__top">
-                    <div className="service-card__icon-box">
-                      <span className="service-card__icon">
-                        <i className="icon-car-insurance" />
-                      </span>
-                    </div>
-                    {/* /.service-card__icon-box */}
-                    <h3 className="service-card__number" />
-                    {/* /.service-card__number */}
                   </div>
                   {/* /.service-card__top */}
                   <h3 className="service-card__title">
-                    <a href="event-details.html">Car Insurance</a>
+                    <a href="event-details.html">Code Feast</a>
                   </h3>
                   {/* /.service-card__title */}
                   <p className="service-card__text">
-                    Life Insurance financial
+                    2022-2023
                   </p>
                   {/* /.service-card__text */}
                 </div>
@@ -735,7 +611,7 @@ function home() {
                     className="service-card__image__inner"
                     style={{
                       backgroundImage:
-                        "url(assets/images/services/service-1-1.jpg)",
+                        "url(assets/images/services/CodeFeast.png)",
                     }}
                   />
                   {/* /.service-card__image__inner */}
@@ -769,22 +645,14 @@ function home() {
                 {/* /.service-card__shape */}
                 <div className="service-card__content">
                   <div className="service-card__top">
-                    <div className="service-card__icon-box">
-                      <span className="service-card__icon">
-                        <i className="icon-life-insurance" />
-                      </span>
-                    </div>
-                    {/* /.service-card__icon-box */}
-                    <h3 className="service-card__number" />
-                    {/* /.service-card__number */}
                   </div>
                   {/* /.service-card__top */}
                   <h3 className="service-card__title">
-                    <a href="event-details.html">life insurance</a>
+                    <a href="event-details.html">Error404 5.0</a>
                   </h3>
                   {/* /.service-card__title */}
                   <p className="service-card__text">
-                    Life Insurance financial
+                    2022-2023
                   </p>
                   {/* /.service-card__text */}
                 </div>
@@ -794,7 +662,7 @@ function home() {
                     className="service-card__image__inner"
                     style={{
                       backgroundImage:
-                        "url(assets/images/services/service-1-2.jpg)",
+                        "url(assets/images/services/error404.png)",
                     }}
                   />
                   {/* /.service-card__image__inner */}
@@ -828,22 +696,14 @@ function home() {
                 {/* /.service-card__shape */}
                 <div className="service-card__content">
                   <div className="service-card__top">
-                    <div className="service-card__icon-box">
-                      <span className="service-card__icon">
-                        <i className="icon-insurance-agent" />
-                      </span>
-                    </div>
-                    {/* /.service-card__icon-box */}
-                    <h3 className="service-card__number" />
-                    {/* /.service-card__number */}
                   </div>
                   {/* /.service-card__top */}
                   <h3 className="service-card__title">
-                    <a href="event-details.html">Business Insurance</a>
+                    <a href="event-details.html">Three 90 Challenge</a>
                   </h3>
                   {/* /.service-card__title */}
                   <p className="service-card__text">
-                    Life Insurance financial
+                    2022-2023
                   </p>
                   {/* /.service-card__text */}
                 </div>
@@ -853,7 +713,7 @@ function home() {
                     className="service-card__image__inner"
                     style={{
                       backgroundImage:
-                        "url(assets/images/services/service-1-3.jpg)",
+                        "url(assets/images/services/three90-challenge.png)",
                     }}
                   />
                   {/* /.service-card__image__inner */}
@@ -887,22 +747,14 @@ function home() {
                 {/* /.service-card__shape */}
                 <div className="service-card__content">
                   <div className="service-card__top">
-                    <div className="service-card__icon-box">
-                      <span className="service-card__icon">
-                        <i className="icon-protection-1" />
-                      </span>
-                    </div>
-                    {/* /.service-card__icon-box */}
-                    <h3 className="service-card__number" />
-                    {/* /.service-card__number */}
                   </div>
                   {/* /.service-card__top */}
                   <h3 className="service-card__title">
-                    <a href="event-details.html">Healthy Insurance</a>
+                    <a href="event-details.html">Teacher's Day</a>
                   </h3>
                   {/* /.service-card__title */}
                   <p className="service-card__text">
-                    Life Insurance financial
+                    2022-2025
                   </p>
                   {/* /.service-card__text */}
                 </div>
@@ -912,7 +764,7 @@ function home() {
                     className="service-card__image__inner"
                     style={{
                       backgroundImage:
-                        "url(assets/images/services/service-1-4.jpg)",
+                        "url(assets/images/services/teachersday.png)",
                     }}
                   />
                   {/* /.service-card__image__inner */}
@@ -946,22 +798,14 @@ function home() {
                 {/* /.service-card__shape */}
                 <div className="service-card__content">
                   <div className="service-card__top">
-                    <div className="service-card__icon-box">
-                      <span className="service-card__icon">
-                        <i className="icon-home" />
-                      </span>
-                    </div>
-                    {/* /.service-card__icon-box */}
-                    <h3 className="service-card__number" />
-                    {/* /.service-card__number */}
                   </div>
                   {/* /.service-card__top */}
                   <h3 className="service-card__title">
-                    <a href="event-details.html">Home Insurance</a>
+                    <a href="event-details.html">Felicitation</a>
                   </h3>
                   {/* /.service-card__title */}
                   <p className="service-card__text">
-                    Life Insurance financial
+                  2023-2024
                   </p>
                   {/* /.service-card__text */}
                 </div>
@@ -971,7 +815,7 @@ function home() {
                     className="service-card__image__inner"
                     style={{
                       backgroundImage:
-                        "url(assets/images/services/service-1-5.jpg)",
+                        "url(assets/images/services/felicitation23-24.png)",
                     }}
                   />
                   {/* /.service-card__image__inner */}
@@ -987,754 +831,18 @@ function home() {
               {/* /.service-card */}
             </div>
             {/* /.item */}
-            <div
-              className="item wow fadeInUp"
-              data-wow-duration="1500ms"
-              data-wow-delay="200ms"
-            >
-              <div className="service-card">
-                <div
-                  className="service-card__bg"
-                  style={{
-                    backgroundImage:
-                      "url(assets/images/shapes/service-card-shape-1-1.png)",
-                  }}
-                />
-                {/* /.service-card__bg */}
-                <div className="service-card__shape" />
-                {/* /.service-card__shape */}
-                <div className="service-card__content">
-                  <div className="service-card__top">
-                    <div className="service-card__icon-box">
-                      <span className="service-card__icon">
-                        <i className="icon-umbrella" />
-                      </span>
-                    </div>
-                    {/* /.service-card__icon-box */}
-                    <h3 className="service-card__number" />
-                    {/* /.service-card__number */}
-                  </div>
-                  {/* /.service-card__top */}
-                  <h3 className="service-card__title">
-                    <a href="event-details.html">Finance Insurance</a>
-                  </h3>
-                  {/* /.service-card__title */}
-                  <p className="service-card__text">
-                    Life Insurance financial
-                  </p>
-                  {/* /.service-card__text */}
-                </div>
-                {/* /.service-card__content */}
-                <div className="service-card__image">
-                  <div
-                    className="service-card__image__inner"
-                    style={{
-                      backgroundImage:
-                        "url(assets/images/services/service-1-6.jpg)",
-                    }}
-                  />
-                  {/* /.service-card__image__inner */}
-                  <a href="event-details.html" className="service-card__btn">
-                    <span className="service-card__btn__icon">
-                      <i className="fas fa-arrow-right" />
-                    </span>
-                  </a>
-                  {/* /.service-card__btn */}
-                </div>
-                {/* /.service-card__image */}
-              </div>
-              {/* /.service-card */}
-            </div>
-            {/* /.item */}
-            <div
-              className="item wow fadeInUp"
-              data-wow-duration="1500ms"
-              data-wow-delay="00ms"
-            >
-              <div className="service-card">
-                <div
-                  className="service-card__bg"
-                  style={{
-                    backgroundImage:
-                      "url(assets/images/shapes/service-card-shape-1-1.png)",
-                  }}
-                />
-                {/* /.service-card__bg */}
-                <div className="service-card__shape" />
-                {/* /.service-card__shape */}
-                <div className="service-card__content">
-                  <div className="service-card__top">
-                    <div className="service-card__icon-box">
-                      <span className="service-card__icon">
-                        <i className="icon-car-insurance" />
-                      </span>
-                    </div>
-                    {/* /.service-card__icon-box */}
-                    <h3 className="service-card__number" />
-                    {/* /.service-card__number */}
-                  </div>
-                  {/* /.service-card__top */}
-                  <h3 className="service-card__title">
-                    <a href="event-details.html">Car Insurance</a>
-                  </h3>
-                  {/* /.service-card__title */}
-                  <p className="service-card__text">
-                    Life Insurance financial
-                  </p>
-                  {/* /.service-card__text */}
-                </div>
-                {/* /.service-card__content */}
-                <div className="service-card__image">
-                  <div
-                    className="service-card__image__inner"
-                    style={{
-                      backgroundImage:
-                        "url(assets/images/services/service-1-1.jpg)",
-                    }}
-                  />
-                  {/* /.service-card__image__inner */}
-                  <a href="event-details.html" className="service-card__btn">
-                    <span className="service-card__btn__icon">
-                      <i className="fas fa-arrow-right" />
-                    </span>
-                  </a>
-                  {/* /.service-card__btn */}
-                </div>
-                {/* /.service-card__image */}
-              </div>
-              {/* /.service-card */}
-            </div>
-            {/* /.item */}
-            <div
-              className="item wow fadeInUp"
-              data-wow-duration="1500ms"
-              data-wow-delay="100ms"
-            >
-              <div className="service-card">
-                <div
-                  className="service-card__bg"
-                  style={{
-                    backgroundImage:
-                      "url(assets/images/shapes/service-card-shape-1-1.png)",
-                  }}
-                />
-                {/* /.service-card__bg */}
-                <div className="service-card__shape" />
-                {/* /.service-card__shape */}
-                <div className="service-card__content">
-                  <div className="service-card__top">
-                    <div className="service-card__icon-box">
-                      <span className="service-card__icon">
-                        <i className="icon-life-insurance" />
-                      </span>
-                    </div>
-                    {/* /.service-card__icon-box */}
-                    <h3 className="service-card__number" />
-                    {/* /.service-card__number */}
-                  </div>
-                  {/* /.service-card__top */}
-                  <h3 className="service-card__title">
-                    <a href="event-details.html">life insurance</a>
-                  </h3>
-                  {/* /.service-card__title */}
-                  <p className="service-card__text">
-                    Life Insurance financial
-                  </p>
-                  {/* /.service-card__text */}
-                </div>
-                {/* /.service-card__content */}
-                <div className="service-card__image">
-                  <div
-                    className="service-card__image__inner"
-                    style={{
-                      backgroundImage:
-                        "url(assets/images/services/service-1-2.jpg)",
-                    }}
-                  />
-                  {/* /.service-card__image__inner */}
-                  <a href="event-details.html" className="service-card__btn">
-                    <span className="service-card__btn__icon">
-                      <i className="fas fa-arrow-right" />
-                    </span>
-                  </a>
-                  {/* /.service-card__btn */}
-                </div>
-                {/* /.service-card__image */}
-              </div>
-              {/* /.service-card */}
-            </div>
-            {/* /.item */}
-            <div
-              className="item wow fadeInUp"
-              data-wow-duration="1500ms"
-              data-wow-delay="200ms"
-            >
-              <div className="service-card">
-                <div
-                  className="service-card__bg"
-                  style={{
-                    backgroundImage:
-                      "url(assets/images/shapes/service-card-shape-1-1.png)",
-                  }}
-                />
-                {/* /.service-card__bg */}
-                <div className="service-card__shape" />
-                {/* /.service-card__shape */}
-                <div className="service-card__content">
-                  <div className="service-card__top">
-                    <div className="service-card__icon-box">
-                      <span className="service-card__icon">
-                        <i className="icon-insurance-agent" />
-                      </span>
-                    </div>
-                    {/* /.service-card__icon-box */}
-                    <h3 className="service-card__number" />
-                    {/* /.service-card__number */}
-                  </div>
-                  {/* /.service-card__top */}
-                  <h3 className="service-card__title">
-                    <a href="event-details.html">Business Insurance</a>
-                  </h3>
-                  {/* /.service-card__title */}
-                  <p className="service-card__text">
-                    Life Insurance financial
-                  </p>
-                  {/* /.service-card__text */}
-                </div>
-                {/* /.service-card__content */}
-                <div className="service-card__image">
-                  <div
-                    className="service-card__image__inner"
-                    style={{
-                      backgroundImage:
-                        "url(assets/images/services/service-1-3.jpg)",
-                    }}
-                  />
-                  {/* /.service-card__image__inner */}
-                  <a href="event-details.html" className="service-card__btn">
-                    <span className="service-card__btn__icon">
-                      <i className="fas fa-arrow-right" />
-                    </span>
-                  </a>
-                  {/* /.service-card__btn */}
-                </div>
-                {/* /.service-card__image */}
-              </div>
-              {/* /.service-card */}
-            </div>
-            {/* /.item */}
-            <div
-              className="item wow fadeInUp"
-              data-wow-duration="1500ms"
-              data-wow-delay="00ms"
-            >
-              <div className="service-card">
-                <div
-                  className="service-card__bg"
-                  style={{
-                    backgroundImage:
-                      "url(assets/images/shapes/service-card-shape-1-1.png)",
-                  }}
-                />
-                {/* /.service-card__bg */}
-                <div className="service-card__shape" />
-                {/* /.service-card__shape */}
-                <div className="service-card__content">
-                  <div className="service-card__top">
-                    <div className="service-card__icon-box">
-                      <span className="service-card__icon">
-                        <i className="icon-protection-1" />
-                      </span>
-                    </div>
-                    {/* /.service-card__icon-box */}
-                    <h3 className="service-card__number" />
-                    {/* /.service-card__number */}
-                  </div>
-                  {/* /.service-card__top */}
-                  <h3 className="service-card__title">
-                    <a href="event-details.html">Healthy Insurance</a>
-                  </h3>
-                  {/* /.service-card__title */}
-                  <p className="service-card__text">
-                    Life Insurance financial
-                  </p>
-                  {/* /.service-card__text */}
-                </div>
-                {/* /.service-card__content */}
-                <div className="service-card__image">
-                  <div
-                    className="service-card__image__inner"
-                    style={{
-                      backgroundImage:
-                        "url(assets/images/services/service-1-4.jpg)",
-                    }}
-                  />
-                  {/* /.service-card__image__inner */}
-                  <a href="event-details.html" className="service-card__btn">
-                    <span className="service-card__btn__icon">
-                      <i className="fas fa-arrow-right" />
-                    </span>
-                  </a>
-                  {/* /.service-card__btn */}
-                </div>
-                {/* /.service-card__image */}
-              </div>
-              {/* /.service-card */}
-            </div>
-            {/* /.item */}
-            <div
-              className="item wow fadeInUp"
-              data-wow-duration="1500ms"
-              data-wow-delay="100ms"
-            >
-              <div className="service-card">
-                <div
-                  className="service-card__bg"
-                  style={{
-                    backgroundImage:
-                      "url(assets/images/shapes/service-card-shape-1-1.png)",
-                  }}
-                />
-                {/* /.service-card__bg */}
-                <div className="service-card__shape" />
-                {/* /.service-card__shape */}
-                <div className="service-card__content">
-                  <div className="service-card__top">
-                    <div className="service-card__icon-box">
-                      <span className="service-card__icon">
-                        <i className="icon-home" />
-                      </span>
-                    </div>
-                    {/* /.service-card__icon-box */}
-                    <h3 className="service-card__number" />
-                    {/* /.service-card__number */}
-                  </div>
-                  {/* /.service-card__top */}
-                  <h3 className="service-card__title">
-                    <a href="event-details.html">Home Insurance</a>
-                  </h3>
-                  {/* /.service-card__title */}
-                  <p className="service-card__text">
-                    Life Insurance financial
-                  </p>
-                  {/* /.service-card__text */}
-                </div>
-                {/* /.service-card__content */}
-                <div className="service-card__image">
-                  <div
-                    className="service-card__image__inner"
-                    style={{
-                      backgroundImage:
-                        "url(assets/images/services/service-1-5.jpg)",
-                    }}
-                  />
-                  {/* /.service-card__image__inner */}
-                  <a href="event-details.html" className="service-card__btn">
-                    <span className="service-card__btn__icon">
-                      <i className="fas fa-arrow-right" />
-                    </span>
-                  </a>
-                  {/* /.service-card__btn */}
-                </div>
-                {/* /.service-card__image */}
-              </div>
-              {/* /.service-card */}
-            </div>
-            {/* /.item */}
-            <div
-              className="item wow fadeInUp"
-              data-wow-duration="1500ms"
-              data-wow-delay="200ms"
-            >
-              <div className="service-card">
-                <div
-                  className="service-card__bg"
-                  style={{
-                    backgroundImage:
-                      "url(assets/images/shapes/service-card-shape-1-1.png)",
-                  }}
-                />
-                {/* /.service-card__bg */}
-                <div className="service-card__shape" />
-                {/* /.service-card__shape */}
-                <div className="service-card__content">
-                  <div className="service-card__top">
-                    <div className="service-card__icon-box">
-                      <span className="service-card__icon">
-                        <i className="icon-umbrella" />
-                      </span>
-                    </div>
-                    {/* /.service-card__icon-box */}
-                    <h3 className="service-card__number" />
-                    {/* /.service-card__number */}
-                  </div>
-                  {/* /.service-card__top */}
-                  <h3 className="service-card__title">
-                    <a href="event-details.html">Finance Insurance</a>
-                  </h3>
-                  {/* /.service-card__title */}
-                  <p className="service-card__text">
-                    Life Insurance financial
-                  </p>
-                  {/* /.service-card__text */}
-                </div>
-                {/* /.service-card__content */}
-                <div className="service-card__image">
-                  <div
-                    className="service-card__image__inner"
-                    style={{
-                      backgroundImage:
-                        "url(assets/images/services/service-1-6.jpg)",
-                    }}
-                  />
-                  {/* /.service-card__image__inner */}
-                  <a href="event-details.html" className="service-card__btn">
-                    <span className="service-card__btn__icon">
-                      <i className="fas fa-arrow-right" />
-                    </span>
-                  </a>
-                  {/* /.service-card__btn */}
-                </div>
-                {/* /.service-card__image */}
-              </div>
-              {/* /.service-card */}
-            </div>
-            {/* /.item */}
+
+{/* ____________________________________________________________________________________________________________________________________________________ */}
+
+            {/* for Adding components of Events Carousel ke liye */}
+{/* ________________________________________________________________________________________________________________________________________________ */}
+        
           </div>
           {/* /.services-one__carousel */}
         </div>
         {/* /.container */}
       </section>
-      {/* /.services-one */}
-      <section className="excellent-service">
-        <div className="container">
-          <div className="excellent-service__inner">
-            <div className="excellent-service__tab">
-              <div className="tabs-box">
-                <ul className="tab-buttons">
-                  <li
-                    data-tab="#excellent-service001"
-                    className="tab-btn insuba-btn active-btn"
-                  >
-                    our mission
-                  </li>
-                  <li
-                    data-tab="#excellent-service002"
-                    className="tab-btn insuba-btn"
-                  >
-                    our vision
-                  </li>
-                  <li
-                    data-tab="#excellent-service003"
-                    className="tab-btn insuba-btn"
-                  >
-                    our support
-                  </li>
-                </ul>
-                {/* /.tab-buttons */}
-                <div className="tabs-content">
-                  <div
-                    className="tab active-tab fadeInUp animated"
-                    data-wow-delay="200ms"
-                    id="excellent-service001"
-                    style={{ display: "block" }}
-                  >
-                    <div className="excellent-service__row row align-items-center">
-                      <div className="excellent-service__image-col">
-                        <div className="excellent-service__image">
-                          <img
-                            src="assets/images/shapes/excellent-service-1-1.png"
-                            alt="excellent-service"
-                          />
-                        </div>
-                        {/* /.excellent-service__image */}
-                      </div>
-                      {/* /.excellent-service__image-col */}
-                      <div className="excellent-service__content-col">
-                        <div className="excellent-service__content">
-                          <h3 className="excellent-service__title">
-                            Excellent service :
-                          </h3>
-                          {/* /.excellent-service__title */}
-                          <ul className="excellent-service__list list-unstyled">
-                            <li>
-                              <span className="excellent-service__list__icon">
-                                <i className="far fa-check-circle" />
-                              </span>
-                              There are many variations of pass available.
-                            </li>
-                            <li>
-                              <span className="excellent-service__list__icon">
-                                <i className="far fa-check-circle" />
-                              </span>
-                              Standard dummy this insurance service.
-                            </li>
-                            <li>
-                              <span className="excellent-service__list__icon">
-                                <i className="far fa-check-circle" />
-                              </span>
-                              No fees, No credit checks this support.
-                            </li>
-                          </ul>
-                          {/* /.excellent-service__list list-unstyled */}
-                        </div>
-                        {/* /.excellent-service__content */}
-                      </div>
-                      {/* /.excellent-service__content-col */}
-                    </div>
-                    {/* /.excellent-service__row */}
-                  </div>
-                  {/* /.excellent-service001-tab */}
-                  <div
-                    className="tab fadeInUp animated"
-                    data-wow-delay="200ms"
-                    id="excellent-service002"
-                    style={{ display: "none" }}
-                  >
-                    <div className="excellent-service__row row align-items-center">
-                      <div className="excellent-service__image-col">
-                        <div className="excellent-service__image">
-                          <img
-                            src="assets/images/shapes/excellent-service-1-1.png"
-                            alt="excellent-service"
-                          />
-                        </div>
-                        {/* /.excellent-service__image */}
-                      </div>
-                      {/* /.excellent-service__image-col */}
-                      <div className="excellent-service__content-col">
-                        <div className="excellent-service__content">
-                          <h3 className="excellent-service__title">
-                            Excellent service :
-                          </h3>
-                          {/* /.excellent-service__title */}
-                          <ul className="excellent-service__list list-unstyled">
-                            <li>
-                              <span className="excellent-service__list__icon">
-                                <i className="far fa-check-circle" />
-                              </span>
-                              Table the discussion turn the ship, this medium.
-                            </li>
-                            <li>
-                              <span className="excellent-service__list__icon">
-                                <i className="far fa-check-circle" />
-                              </span>
-                              We need to get the vernacular right.
-                            </li>
-                            <li>
-                              <span className="excellent-service__list__icon">
-                                <i className="far fa-check-circle" />
-                              </span>
-                              Gain traction we need to make the new version.
-                            </li>
-                          </ul>
-                          {/* /.excellent-service__list list-unstyled */}
-                        </div>
-                        {/* /.excellent-service__content */}
-                      </div>
-                      {/* /.excellent-service__content-col */}
-                    </div>
-                    {/* /.excellent-service__row */}
-                  </div>
-                  {/* /.excellent-service002-tab */}
-                  <div
-                    className="tab fadeInUp animated"
-                    data-wow-delay="200ms"
-                    id="excellent-service003"
-                    style={{ display: "none" }}
-                  >
-                    <div className="excellent-service__row row align-items-center">
-                      <div className="excellent-service__image-col">
-                        <div className="excellent-service__image">
-                          <img
-                            src="assets/images/shapes/excellent-service-1-1.png"
-                            alt="excellent-service"
-                          />
-                        </div>
-                        {/* /.excellent-service__image */}
-                      </div>
-                      {/* /.excellent-service__image-col */}
-                      <div className="excellent-service__content-col">
-                        <div className="excellent-service__content">
-                          <h3 className="excellent-service__title">
-                            Excellent service :
-                          </h3>
-                          {/* /.excellent-service__title */}
-                          <ul className="excellent-service__list list-unstyled">
-                            <li>
-                              <span className="excellent-service__list__icon">
-                                <i className="far fa-check-circle" />
-                              </span>
-                              Cross functional teams enable out of the box.
-                            </li>
-                            <li>
-                              <span className="excellent-service__list__icon">
-                                <i className="far fa-check-circle" />
-                              </span>
-                              We need to build it so that it scales ramp up.
-                            </li>
-                            <li>
-                              <span className="excellent-service__list__icon">
-                                <i className="far fa-check-circle" />
-                              </span>
-                              Streamline what's the status on the
-                              deliverables.
-                            </li>
-                          </ul>
-                          {/* /.excellent-service__list list-unstyled */}
-                        </div>
-                        {/* /.excellent-service__content */}
-                      </div>
-                      {/* /.excellent-service__content-col */}
-                    </div>
-                    {/* /.excellent-service__row */}
-                  </div>
-                  {/* /.excellent-service003-tab */}
-                </div>
-                {/* /.tab-content */}
-              </div>
-              {/* /.tabs-box */}
-            </div>
-            {/* /.excellent-service__tab */}
-            <img
-              src="assets/images/shapes/excellent-service-shape-1-1.png"
-              alt="shape"
-              className="excellent-service__shape"
-            />
-          </div>
-          {/* /.excellent-service__inner */}
-        </div>
-        {/* /.container */}
-      </section>
-      {/* /.excellent-service */}
-      <br />
-      <br />
-      <section className="portfolio-one" id="portfolio">
-        <img
-          src="assets/images/shapes/portfolio-shape-1-1.png"
-          alt="shape"
-          className="portfolio-one__shape-one"
-        />
-        <img
-          src="assets/images/shapes/portfolio-shape-1-2.png"
-          alt="shape"
-          className="portfolio-one__shape-two"
-        />
-        <img
-          src="assets/images/shapes/portfolio-shape-1-3.png"
-          alt="shape"
-          className="portfolio-one__shape-three"
-        />
-        <div className="container">
-          <div className="portfolio-one__top">
-            <div className="row gutter-y-30 align-items-center">
-              <div className="col-lg-6">
-                <div
-                  className="sec-title @@extrClassName wow fadeInUp"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="sec-title__top">
-                    <div className="sec-title__box">
-                      <div className="sec-title__box__inner" />
-                    </div>
-                    {/* /.sec-title__box */}
-                    <h6 className="sec-title__tagline">Our Case Study</h6>
-                    {/* /.sec-title__tagline */}
-                  </div>
-                  {/* /.sec-title__top */}
-                  <h3 className="sec-title__title">
-                    We Are Variety of industries <br /> Insurance Company.
-                  </h3>
-                  {/* /.sec-title__title */}
-                </div>
-                {/* /.sec-title */}
-              </div>
-              {/* /.col-lg-6 */}
-              <div className="col-lg-6">
-                <div
-                  className="portfolio-one__description wow fadeInUp"
-                  data-wow-duration="1500ms"
-                  data-wow-delay="100ms"
-                >
-                  <p className="portfolio-one__text">
-                    In an ideal world disband the squad but rehydrate as
-                    needed, yet loop back define the underlying principles
-                    that drive decisions and strategy for your design
-                    language. Work flows products need full resourcing and
-                    support.
-                  </p>
-                  {/* /.portfolio-one__text */}
-                </div>
-                {/* /.portfolio-one__description */}
-              </div>
-              {/* /.col-lg-6 */}
-            </div>
-            {/* /.row gutter-y-30 */}
-          </div>
-          {/* /.portfolio-one__top */}
-        </div>
-        {/* /.container */}
-        <div className="portfolio-one__info-wrapper">
-          <div className="container">
-            <div className="row gutter-y-40">
-              <div
-                className="col-lg-6 wow fadeInUp"
-                data-wow-duration="1500ms"
-                data-wow-delay="00ms"
-              >
-                <div className="portfolio-one__info">
-                  <div className="portfolio-one__info__content">
-                    <h3 className="portfolio-one__info__title">
-                      Need to File Claim For Difficult High
-                    </h3>
-                    {/* /.portfolio-one__info__title */}
-                    <p className="portfolio-one__info__text">
-                      Objective Resourcebased on 750+ reviews <br />
-                      and 80,000 this 965+ Projects
-                    </p>
-                    {/* /.portfolio-one__info__text */}
-                  </div>
-                  {/* /.portfolio-one__info__content */}
-                </div>
-                {/* /.portfolio-one__info */}
-              </div>
-              {/* /.col-lg-6 */}
-              <div
-                className="col-lg-6 wow fadeInUp"
-                data-wow-duration="1500ms"
-                data-wow-delay="100ms"
-              >
-                <div className="portfolio-one__projects">
-                  <div className="portfolio-one__projects__inner">
-                    <span className="portfolio-one__projects__icon">
-                      <i className="icon-family" />
-                    </span>
-                    {/* /.portfolio-one__projects__icon */}
-                    <div className="portfolio-one__projects__content">
-                      <h3 className="portfolio-one__projects__title">
-                        2589+ Projects off
-                      </h3>
-                      {/* /.portfolio-one__projects__title */}
-                      <p className="portfolio-one__projects__text">
-                        Completed Insurance
-                      </p>
-                      {/* /.portfolio-one__projects__text */}
-                    </div>
-                    {/* /.portfolio-one__projects__content */}
-                  </div>
-                  {/* /.portfolio-one__projects__inner */}
-                </div>
-                {/* /.portfolio-one__projects */}
-              </div>
-              {/* /.col-lg-6 */}
-            </div>
-            {/* /.row gutter-y-40 */}
-          </div>
-          {/* /.container */}
-        </div>
-        {/* /.portfolio-one__info-wrapper */}
-      </section>
-      {/* /.portfolio-one */}
+
       <section className="team-one section-space" id="team">
         <div className="container">
           <div
@@ -1750,7 +858,7 @@ function home() {
               {/* /.sec-title__tagline */}
             </div>
             {/* /.sec-title__top */}
-            <h3 className="sec-title__title">Meet The Team Membar</h3>
+            <h3 className="sec-title__title">Meet The Team Member</h3>
             {/* /.sec-title__title */}
           </div>
           {/* /.sec-title */}
@@ -2114,7 +1222,7 @@ function home() {
               {/* /.col-lg-6 */}
             </div>
             {/* /.team-one__row row */}
-            <a href="team-3.html" className="team-one__btn">
+            <a href="/member" className="team-one__btn" >
               <span className="team-one__btn__icon">
                 <i className="icon-arrow-up-right" />
               </span>
@@ -2206,8 +1314,8 @@ function home() {
                 <div className="footer-widget footer-widget--about">
                   <a href="index.html" className="footer-widget__logo">
                     <img
-                      src="assets/images/logo-light.png"
-                      width={212}
+                      src="assets/images/logo.png"
+                      width={202}
                       alt="Insuba HTML Template"
                     />
                   </a>
@@ -2395,8 +1503,7 @@ function home() {
           <div className="container">
             <div className="main-footer__bottom__inner">
               <p className="main-footer__copyright">
-                © Copyright <span className="dynamic-year" /> by Programmer's
-                Club
+              Copyright © 2024 All rights reserved  <span className="dynamic-year" /> | Designed and Developed by Technical Team
               </p>
             </div>
             {/* /.main-footer__inner */}
