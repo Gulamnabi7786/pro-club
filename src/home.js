@@ -5,12 +5,12 @@ function home() {
     <>
     {/* <div className="custom-cursor__cursor" /> */}
     {/* <div className="custom-cursor__cursor-two" /> */}
-    <div className="preloader">
+    {/* <div className="preloader">
     <div
         className="preloader__image"
         style={{ backgroundImage: "url(assets/images/loader2.png)" }}
       />
-    </div>
+    </div> */}
     {/* /.preloader */}
     <div className="page-wrapper">
       <div className="header">
