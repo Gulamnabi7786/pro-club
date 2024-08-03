@@ -6736,6 +6736,13 @@ body.megamenu-popup-active .mobile-nav__content {
   text-align: center;
 }
 .main-footer__copyright {
+  text-decoration: none;
+  margin: 0;
+  font-family: var(--insuba-font2, "Rubik", sans-serif);
+  color: var(--insuba-white, #ffffff);
+}
+.main-footer__copyright a{
+  text-decoration: none;
   margin: 0;
   font-family: var(--insuba-font2, "Rubik", sans-serif);
   color: var(--insuba-white, #ffffff);

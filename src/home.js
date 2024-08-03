@@ -8,7 +8,7 @@ function home() {
     <div className="preloader">
     <div
         className="preloader__image"
-        style={{ backgroundImage: "url(assets/images/loader1.png)" }}
+        style={{ backgroundImage: "url(assets/images/loader2.png)" }}
       />
     </div>
     {/* /.preloader */}
@@ -1503,7 +1503,7 @@ function home() {
           <div className="container">
             <div className="main-footer__bottom__inner">
               <p className="main-footer__copyright">
-              Copyright © 2024 All rights reserved  <span className="dynamic-year" /> | Designed and Developed by Technical Team
+              Copyright © 2024 All rights reserved  <span className="dynamic-year" /> | Developed by <a href='https://devasil-portfolio.vercel.app/' color='white'>Asil</a>  & <a href='http://devgulmanabi.vercel.app' color='white'>Gulamnabi</a>
               </p>
             </div>
             {/* /.main-footer__inner */}
