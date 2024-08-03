@@ -316,7 +316,7 @@ function home() {
                     data-wow-duration="1500ms"
                   >
                     <img
-                      src="assets/images/about/trophy.jpg"
+                      src="assets/images/about/trophy.JPG"
                       alt="about"
                       height={200}
                       className="about-one__image__one"
