@@ -118,7 +118,7 @@ function about() {
                     <ul>
                       <li>
                         <div className="megamenu-popup">
-                          <a href="#" className="megamenu-clickable--close">
+                          <a href="/" className="megamenu-clickable--close">
                             <span className="icon-close" />
                           </a>
                           {/* /.megamenu-clickable--close */}
@@ -406,7 +406,7 @@ function about() {
                     </ul>
                   </li>
                   <li className="dropdown">
-                    <a href="#">Insurance</a>
+                    <a href="/">Insurance</a>
                     <ul>
                       <li>
                         <a href="insurance.html">Our Insurance</a>
@@ -447,7 +447,7 @@ function about() {
                     </ul>
                   </li>
                   <li className="dropdown">
-                    <a href="#">Services </a>
+                    <a href="/">Services </a>
                     <ul>
                       <li>
                         <a href="services.html">Our Services 01</a>
@@ -512,13 +512,13 @@ function about() {
                     </ul>
                   </li>
                   <li className="dropdown">
-                    <a href="#">Pages </a>
+                    <a href="/">Pages </a>
                     <ul>
                       <li>
                         <a href="about.html">About Us</a>
                       </li>
                       <li className="dropdown">
-                        <a href="#">Our Team</a>
+                        <a href="/">Our Team</a>
                         <ul>
                           <li>
                             <a href="team.html">Our Team 01</a>
@@ -544,7 +544,7 @@ function about() {
                         </ul>
                       </li>
                       <li className="dropdown">
-                        <a href="#">Our Portfolio</a>
+                        <a href="/">Our Portfolio</a>
                         <ul>
                           <li>
                             <a href="portfolio.html">Our Portfolio 01</a>
@@ -570,7 +570,7 @@ function about() {
                         </ul>
                       </li>
                       <li className="dropdown">
-                        <a href="#">Our Testimonials</a>
+                        <a href="/">Our Testimonials</a>
                         <ul>
                           <li>
                             <a href="testimonials.html">Our Testimonials 01</a>
@@ -606,94 +606,14 @@ function about() {
                       </li>
                     </ul>
                   </li>
-                  <li className="dropdown">
-                    <a href="#">Shop </a>
-                    <ul>
-                      <li className="dropdown">
-                        <a href="#">Products</a>
-                        <ul>
-                          <li>
-                            <a href="products.html">No sidebar</a>
-                          </li>
-                          <li>
-                            <a href="products-left.html">Left sidebar</a>
-                          </li>
-                          <li>
-                            <a href="products-right.html">Right sidebar</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a href="products-carousel.html">Products carousel</a>
-                      </li>
-                      <li>
-                        <a href="product-details.html">Product details</a>
-                      </li>
-                      <li>
-                        <a href="cart.html">Cart</a>
-                      </li>
-                      <li>
-                        <a href="checkout.html">Checkout</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="dropdown">
-                    <a href="#">Blog </a>
-                    <ul>
-                      <li className="dropdown">
-                        <a href="#">Blog grid</a>
-                        <ul>
-                          <li>
-                            <a href="blog-grid.html">No sidebar</a>
-                          </li>
-                          <li>
-                            <a href="blog-grid-left.html">Left sidebar</a>
-                          </li>
-                          <li>
-                            <a href="blog-grid-right.html">Right sidebar</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li className="dropdown">
-                        <a href="#">Blog list</a>
-                        <ul>
-                          <li>
-                            <a href="blog-list.html">No sidebar</a>
-                          </li>
-                          <li>
-                            <a href="blog-list-left.html">Left sidebar</a>
-                          </li>
-                          <li>
-                            <a href="blog-list-right.html">Right sidebar</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a href="blog-carousel.html">Blog carousel</a>
-                      </li>
-                      <li className="dropdown">
-                        <a href="#">Blog details</a>
-                        <ul>
-                          <li>
-                            <a href="blog-details.html">No sidebar</a>
-                          </li>
-                          <li>
-                            <a href="blog-details-left.html">Left sidebar</a>
-                          </li>
-                          <li>
-                            <a href="blog-details-right.html">Right sidebar</a>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
+
                   <li>
                     <a href="contact.html">Contact</a>
                   </li>
                 </ul>
               </nav>
               {/* /.main-header__nav */}
-              <a href="#" className="main-header__search search-toggler">
+              <a href="/" className="main-header__search search-toggler">
                 <span className="main-header__search__icon">
                   <i className="icon-search" aria-hidden="true" />
                   <span className="sr-only">Search</span>

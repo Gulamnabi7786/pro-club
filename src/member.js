@@ -40,7 +40,7 @@ function member() {
         {/* /.container */}
         <img
           src="assets/images/resources/page-header-1-1.png"
-          alt="image"
+          alt="header"
           className="page-header__image"
         />
         <img
@@ -552,7 +552,7 @@ function member() {
                       <span className="footer-widget__info__icon">
                         <i className="fas fa-map-marker-alt" />
                       </span>
-                      <a href="#" className="footer-widget__info__text">
+                      <a href="/" className="footer-widget__info__text">
                         {" "}
                         13/A, Miranda Halim City. <br /> Stanhope, IA 50246
                       </a>
@@ -768,7 +768,7 @@ function member() {
       {/* /.search-popup__content */}
     </div>
     {/* /.search-popup */}
-    <a href="#" data-target="html" className="scroll-to-target scroll-to-top">
+    <a href="/" data-target="html" className="scroll-to-target scroll-to-top">
       <span className="scroll-to-top__text">back top</span>
       <span className="scroll-to-top__wrapper">
         <span className="scroll-to-top__inner" />
