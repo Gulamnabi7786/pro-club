@@ -205,8 +205,7 @@ function home() {
                   className="main-slider-one__shape-one slider-image"
                 />
               </div>
-            </div>
-            <div className="main-slider-one__item">
+              <div className="main-slider-one__item">
               <div className="main-slider-one__image-left" />
               {/* /.main-slider-one__image-left */}
               <div className="main-slider-one__image-right">
@@ -302,6 +301,7 @@ function home() {
                 alt="shape"
                 className="main-slider-one__shape-one slider-image"
               />
+            </div>
             </div>
           </OwlCarousel>
           {/* /.main-slider-one__carousel */}
