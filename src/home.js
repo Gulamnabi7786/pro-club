@@ -76,12 +76,6 @@ function Home() {
                 </div>
                 {/* /.main-header__logo */}
                 <div className="main-header__right">
-                  <div className="mobile-nav__btn mobile-nav__toggler">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
-                  {/* /.mobile-nav__toggler */}
                   <nav className="main-header__nav main-menu">
                     <ul className="main-menu__list one-page-scroll-menu">
                       <li className="scrollToLink current">
@@ -1242,7 +1236,7 @@ function Home() {
               {/* /.newsletter__inner__bg */}
               <div className="newsletter__image">
                 <img
-                  src="assets/images/resources/newsletter-1-1.png"
+                  src="assets/images/resources/fouzan.png"
                   alt="newsletter"
                   className="newsletter__image__one"
                 />
@@ -1287,7 +1281,7 @@ function Home() {
             <div
               className="main-footer__bg"
               style={{
-                backgroundImage: "url(assets/images/backgrounds/footer-bg.jpg)",
+                backgroundImage: "url(assets/images/backgrounds/trophy.JPG)",
               }}
             />
 
