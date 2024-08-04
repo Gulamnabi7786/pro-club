@@ -1,8 +1,8 @@
 import React from "react";
 // import $ from 'jquery';
 import OwlCarousel from "react-owl-carousel";
-import 'owl.carousel/dist/assets/owl.carousel.css';
-import 'owl.carousel/dist/assets/owl.theme.default.css';
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 // import 'owl.carousel';
 // import "./js/insuba"
 
@@ -14,24 +14,27 @@ function Home() {
     smartSpeed: 700,
     nav: false,
     dots: true,
-    navText: ["<i class=\"fas fa-chevron-left\"></i>", "<i class=\"fas fa-chevron-right\"></i>"],
+    navText: [
+      '<i class="fas fa-chevron-left"></i>',
+      '<i class="fas fa-chevron-right"></i>',
+    ],
     autoplay: true,
     responsive: {
       0: {
         items: 1,
         nav: true,
         dots: false,
-        margin: 10
+        margin: 10,
       },
       768: {
         items: 2,
-        margin: 30
+        margin: 30,
       },
       992: {
         items: 3,
-        margin: 30
-      }
-    }
+        margin: 30,
+      },
+    },
   };
 
   const options = {
@@ -703,7 +706,7 @@ function Home() {
                       className="service-card__image__inner"
                       style={{
                         backgroundImage:
-                          "url(assets/images/services/three90-challenge.png)",
+                          "url(assets/images/services/three90-Challenge.png)",
                       }}
                     />
                     {/* /.service-card__image__inner */}
@@ -1277,6 +1280,7 @@ function Home() {
           </div>
           {/* /.container */}
         </div>
+
         {/* /.newsletter */}
         <footer className="main-footer @@extraClassName">
           <div className="main-footer__top">
@@ -1286,6 +1290,7 @@ function Home() {
                 backgroundImage: "url(assets/images/backgrounds/footer-bg.jpg)",
               }}
             />
+
             {/* /.main-footer__bg */}
             <div className="container">
               <div className="row gutter-y-40">
@@ -1317,16 +1322,7 @@ function Home() {
                         </span>
                         {/* /.social-links__icon */}
                       </a>
-                      <a href="https://pinterest.com/">
-                        <span className="social-links__icon">
-                          <i
-                            className="fab fa-pinterest-p"
-                            aria-hidden="true"
-                          />
-                          <span className="sr-only">Pinterest</span>
-                        </span>
-                        {/* /.social-links__icon */}
-                      </a>
+                      
                       <a href="https://twitter.com/">
                         <span className="social-links__icon">
                           <i className="fab fa-twitter" aria-hidden="true" />
@@ -1346,6 +1342,7 @@ function Home() {
                   </div>
                   {/* /.footer-widget */}
                 </div>
+
                 {/* /.col-xl-4 col-lg-5 col-md-8 */}
                 <div
                   className="col-xl-2 col-lg-3 col-md-4 wow fadeInUp"
@@ -1374,98 +1371,6 @@ function Home() {
                   {/* /.footer-widget */}
                 </div>
                 {/* /.col-xl-2 col-lg-3 col-md-4 */}
-                <div
-                  className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-                  data-wow-duration="1500ms"
-                  data-wow-delay="400ms"
-                >
-                  <div className="footer-widget footer-widget--gallery">
-                    <h2 className="footer-widget__title">Gallery</h2>
-                    {/* /.footer-widget__title */}
-                    <div className="footer-widget__gallery">
-                      <a
-                        href="about.html"
-                        className="footer-widget__gallery__link"
-                      >
-                        <img
-                          src="assets/images/gallery/footer-widget-gallery-1.jpg"
-                          alt="footer-widget-gallery"
-                        />
-                        <span className="footer-widget__gallery__overlay">
-                          <i className="icon-plus" />
-                        </span>
-                      </a>
-                      {/* /.footer-widget__gallery__link */}
-                      <a
-                        href="about.html"
-                        className="footer-widget__gallery__link"
-                      >
-                        <img
-                          src="assets/images/gallery/footer-widget-gallery-2.jpg"
-                          alt="footer-widget-gallery"
-                        />
-                        <span className="footer-widget__gallery__overlay">
-                          <i className="icon-plus" />
-                        </span>
-                      </a>
-                      {/* /.footer-widget__gallery__link */}
-                      <a
-                        href="about.html"
-                        className="footer-widget__gallery__link"
-                      >
-                        <img
-                          src="assets/images/gallery/footer-widget-gallery-3.jpg"
-                          alt="footer-widget-gallery"
-                        />
-                        <span className="footer-widget__gallery__overlay">
-                          <i className="icon-plus" />
-                        </span>
-                      </a>
-                      {/* /.footer-widget__gallery__link */}
-                      <a
-                        href="about.html"
-                        className="footer-widget__gallery__link"
-                      >
-                        <img
-                          src="assets/images/gallery/footer-widget-gallery-4.jpg"
-                          alt="footer-widget-gallery"
-                        />
-                        <span className="footer-widget__gallery__overlay">
-                          <i className="icon-plus" />
-                        </span>
-                      </a>
-                      {/* /.footer-widget__gallery__link */}
-                      <a
-                        href="about.html"
-                        className="footer-widget__gallery__link"
-                      >
-                        <img
-                          src="assets/images/gallery/footer-widget-gallery-5.jpg"
-                          alt="footer-widget-gallery"
-                        />
-                        <span className="footer-widget__gallery__overlay">
-                          <i className="icon-plus" />
-                        </span>
-                      </a>
-                      {/* /.footer-widget__gallery__link */}
-                      <a
-                        href="about.html"
-                        className="footer-widget__gallery__link"
-                      >
-                        <img
-                          src="assets/images/gallery/footer-widget-gallery-6.jpg"
-                          alt="footer-widget-gallery"
-                        />
-                        <span className="footer-widget__gallery__overlay">
-                          <i className="icon-plus" />
-                        </span>
-                      </a>
-                      {/* /.footer-widget__gallery__link */}
-                    </div>
-                  </div>
-                  {/* /.footer-widget */}
-                </div>
-                {/* /.col-xl-3 col-lg-4 col-md-6 */}
               </div>
               {/* /.row */}
             </div>
@@ -1481,14 +1386,17 @@ function Home() {
               className="main-footer__shape-two"
             />
           </div>
+
           {/* /.main-footer__top */}
           <div className="main-footer__bottom">
             <div className="container">
               <div className="main-footer__bottom__inner">
-                <p className="main-footer__copyright">
+                <p class="main-footer__copyright">
                   Copyright © 2024 All rights reserved{" "}
-                  <span className="dynamic-year" /> | Developed by{" "}
-                  <a href="https://devasil-portfolio.vercel.app/">Asil</a> &{" "}
+                  <span class="dynamic-year"> | Developed by </span>
+                  <a href="https://devasil-portfolio.vercel.app/">
+                    Asil
+                  </a> &{" "}
                   <a href="https://devgulamnabi.vercel.app/">Gulamnabi</a>
                 </p>
               </div>
@@ -1500,6 +1408,7 @@ function Home() {
         </footer>
         {/* /.main-footer */}
       </div>
+
       {/* /.page-wrapper */}
       <div className="mobile-nav__wrapper">
         <div className="mobile-nav__overlay mobile-nav__toggler" />
@@ -1555,6 +1464,7 @@ function Home() {
           </div>
         </div>
       </div>
+
       <div className="search-popup">
         <div className="search-popup__overlay search-toggler" />
         {/* /.search-popup__overlay */}

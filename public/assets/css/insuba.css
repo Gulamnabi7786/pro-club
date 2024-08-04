@@ -6794,6 +6794,13 @@ body.megamenu-popup-active .mobile-nav__content {
   font-family: var(--insuba-font2, "Rubik", sans-serif);
   color: var(--insuba-white, #ffffff);
 }
+
+.main-footer__copyright a{
+  text-decoration: none;
+  margin: 0;
+  font-family: var(--insuba-font2, "Rubik", sans-serif);
+  color: var(--insuba-white, #ffffff);
+}
 .main-footer__shape-one {
   max-width: 100%;
   height: auto;
