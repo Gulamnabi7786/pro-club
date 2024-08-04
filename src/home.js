@@ -1,9 +1,9 @@
-import React, {useRef, useEffect} from "react";
-import $ from 'jquery';
+import React from "react";
+// import $ from 'jquery';
 import OwlCarousel from "react-owl-carousel";
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import 'owl.carousel';
+// import 'owl.carousel';
 // import "./js/insuba"
 
 function Home() {
