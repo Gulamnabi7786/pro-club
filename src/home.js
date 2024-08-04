@@ -3,7 +3,7 @@ import React from "react";
 
 function home() {
   return (
-    <>
+    <div>
       {/* <div className="custom-cursor__cursor" /> */}
       {/* <div className="custom-cursor__cursor-two" /> */}
       {/* <div className="preloader">
@@ -96,7 +96,7 @@ function home() {
 "animateOut": "fadeOut",
 "loop": true,
 "smartSpeed": 700,
-"nav": true,
+"nav": false,
 "dots": true,
 "autoplay": true,
 "navText": ["<i class=\"fas fa-chevron-left\"></i>","<i class=\"fas fa-chevron-right\"></i>"]
@@ -1584,7 +1584,7 @@ function home() {
         </span>
       </a>
       {/* template js */}
-    </>
+    </div>
   );
 }
 
