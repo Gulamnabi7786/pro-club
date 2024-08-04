@@ -7457,6 +7457,52 @@ body.megamenu-popup-active .mobile-nav__content {
   bottom: 100px;
   transform: translateX(-50%);
 }
+
+
+/* Base styles for the slider */
+.main-slider-one__carousel {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  .main-slider-one__carousel {
+      /* Adjust the height for mobile */
+      height: auto;
+  }
+
+  .main-slider-one__image-left,
+  .main-slider-one__image-right {
+      /* Ensure images are responsive */
+      width: 100%;
+      height: auto;
+  }
+
+  .main-slider-one__content {
+      /* Adjust padding and margins for mobile */
+      padding: 20px;
+      text-align: center;
+  }
+
+  .main-slider-one__title {
+      /* Adjust font size for mobile */
+      font-size: 24px;
+  }
+
+  .main-slider-one__description {
+      /* Adjust font size for mobile */
+      font-size: 16px;
+  }
+
+  .main-slider-one__button {
+      /* Center the button on mobile */
+      display: flex;
+      justify-content: center;
+  }
+}
+
 @media (min-width: 1200px) {
   .main-slider-one__carousel.owl-carousel .owl-dots {
     top: 50%;
