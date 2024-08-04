@@ -1,7 +1,26 @@
 import React from "react";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 // import "./js/insuba"
 
 function home() {
+  const options = {
+    items: 1,
+    margin: 0,
+    animateIn: "fadeIn",
+    animateOut: "fadeOut",
+    loop: true,
+    smartSpeed: 700,
+    nav: false,
+    dots: true,
+    autoplay: true,
+    navText: [
+      '<i class="fas fa-chevron-left"></i>',
+      '<i class="fas fa-chevron-right"></i>',
+    ],
+  };
+
   return (
     <div>
       {/* <div className="custom-cursor__cursor" /> */}
@@ -47,7 +66,7 @@ function home() {
                       </li>
                     </ul>
                   </nav>
-                  
+
                   {/* /.main-header__nav */}
                   <a href="/" className="main-header__search search-toggler">
                     <span className="main-header__search__icon">
@@ -87,119 +106,106 @@ function home() {
         {/* /.header */}
 
         <section className="main-slider-one" id="home">
-          <div
-            className="main-slider-one__carousel insuba-owl__carousel insuba-owl__carousel--basic-nav owl-carousel owl-theme"
-            data-owl-options='{
-  "items": 1,
-"margin": 0,
-"animateIn": "fadeIn",
-"animateOut": "fadeOut",
-"loop": true,
-"smartSpeed": 700,
-"nav": false,
-"dots": true,
-"autoplay": true,
-"navText": ["<i class=\"fas fa-chevron-left\"></i>","<i class=\"fas fa-chevron-right\"></i>"]
-  }'
-          >
+          <OwlCarousel className="main-slider-one__carousel" {...options}>
             <div className="main-slider-one__item">
-              <div className="main-slider-one__image-left" />
-              {/* /.main-slider-one__image-left */}
-              <div className="main-slider-one__image-right">
-                <div className="main-slider-one__image-right__inner">
-                  <div
-                    className="main-slider-one__image-right__bg"
-                    style={{
-                      backgroundImage:
-                        "url(assets/images/main-slider/error404.png)",
-                    }}
+              <div className="main-slider-one__item">
+                <div className="main-slider-one__image-left" />
+                {/* /.main-slider-one__image-left */}
+                <div className="main-slider-one__image-right">
+                  <div className="main-slider-one__image-right__inner">
+                    <div
+                      className="main-slider-one__image-right__bg"
+                      style={{
+                        backgroundImage:
+                          "url(assets/images/main-slider/error404.png)",
+                      }}
+                    />
+                  </div>
+                  {/* /.main-slider-one__image-right__inner */}
+                  <img
+                    src="assets/images/main-slider/ahmed-sir.png"
+                    alt="sliderimage"
+                    className="main-slider-one__image-right__image"
                   />
                 </div>
-                {/* /.main-slider-one__image-right__inner */}
+                {/* /.main-slider-one__image-right */}
+                <div className="container">
+                  <div className="row">
+                    <div className="col-xl-6 col-lg-9">
+                      <div className="main-slider-one__content">
+                        <div className="main-slider-one__top">
+                          <div className="main-slider-one__top__inner">
+                            <div className="main-slider-one__top__box">
+                              <div className="main-slider-one__top__box__inner" />
+                            </div>
+                            {/* /.main-slider-one__top__box */}
+                            <h6 className="main-slider-one__tagline">
+                              Welcome To Programmers Club
+                            </h6>
+                          </div>
+                          {/* /.main-slider-one__top__inner */}
+                        </div>
+                        {/* /.main-slider-one__top */}
+                        <h2 className="main-slider-one__title">
+                          <span className="main-slider-one__title__inner">
+                            Welcome to <br />
+                            <span className="main-slider-one__title__text">
+                              Programmers club
+                            </span>
+                          </span>
+                        </h2>
+                        {/* /.title */}
+                        <div className="main-slider-one__description">
+                          <p className="main-slider-one__text">
+                            Join us to enhance your tech skills, participate in
+                            hackathons, workshops, and coding competitions, and
+                            collaborate on exciting projects. Let’s innovate
+                            together!
+                          </p>
+                          {/* /.text */}
+                        </div>
+                        {/* /.description */}
+                        <div className="main-slider-one__button">
+                          <div className="main-slider-one__button__inner">
+                            <a
+                              href="contact.html"
+                              className="main-slider-one__btn-1 insuba-btn"
+                            >
+                              <span>Connect With Us</span>
+                              <span className="insuba-btn__icon-box">
+                                <span className="insuba-btn__icon">
+                                  <i className="fas fa-arrow-right" />
+                                </span>
+                              </span>{" "}
+                            </a>
+                            {/* /.insuba-btn */}
+                          </div>
+                        </div>
+                        {/* /.button */}
+                        <div className="main-slider-one__content__shape-box" />
+                        {/* /.main-slider-one__content__shape-box */}
+                        <img
+                          src="assets/images/shapes/main-slider-shape-1-1.png"
+                          alt="shape"
+                          className="main-slider-one__content__shape-one slider-image"
+                        />
+                      </div>
+                      {/* /.main-slider-one__content */}
+                    </div>
+                    {/* /.col-xl-6 col-lg-9 */}
+                  </div>
+                  {/* /.row */}
+                </div>
+                {/* /.container */}
+                <div className="main-slider-one__shape-box" />
+                {/* /.main-slider-one__shape-box */}
                 <img
-                  src="assets/images/main-slider/ahmed-sir.png"
-                  alt="sliderimage"
-                  className="main-slider-one__image-right__image"
+                  src="assets/images/shapes/main-slider-shape-1-2.png"
+                  alt="shape"
+                  className="main-slider-one__shape-one slider-image"
                 />
               </div>
-              {/* /.main-slider-one__image-right */}
-              <div className="container">
-                <div className="row">
-                  <div className="col-xl-6 col-lg-9">
-                    <div className="main-slider-one__content">
-                      <div className="main-slider-one__top">
-                        <div className="main-slider-one__top__inner">
-                          <div className="main-slider-one__top__box">
-                            <div className="main-slider-one__top__box__inner" />
-                          </div>
-                          {/* /.main-slider-one__top__box */}
-                          <h6 className="main-slider-one__tagline">
-                            Welcome To Programmers Club
-                          </h6>
-                        </div>
-                        {/* /.main-slider-one__top__inner */}
-                      </div>
-                      {/* /.main-slider-one__top */}
-                      <h2 className="main-slider-one__title">
-                        <span className="main-slider-one__title__inner">
-                          Welcome to <br />
-                          <span className="main-slider-one__title__text">
-                            Programmers club
-                          </span>
-                        </span>
-                      </h2>
-                      {/* /.title */}
-                      <div className="main-slider-one__description">
-                        <p className="main-slider-one__text">
-                          Join us to enhance your tech skills, participate in
-                          hackathons, workshops, and coding competitions, and
-                          collaborate on exciting projects. Let’s innovate
-                          together!
-                        </p>
-                        {/* /.text */}
-                      </div>
-                      {/* /.description */}
-                      <div className="main-slider-one__button">
-                        <div className="main-slider-one__button__inner">
-                          <a
-                            href="contact.html"
-                            className="main-slider-one__btn-1 insuba-btn"
-                          >
-                            <span>Connect With Us</span>
-                            <span className="insuba-btn__icon-box">
-                              <span className="insuba-btn__icon">
-                                <i className="fas fa-arrow-right" />
-                              </span>
-                            </span>{" "}
-                          </a>
-                          {/* /.insuba-btn */}
-                        </div>
-                      </div>
-                      {/* /.button */}
-                      <div className="main-slider-one__content__shape-box" />
-                      {/* /.main-slider-one__content__shape-box */}
-                      <img
-                        src="assets/images/shapes/main-slider-shape-1-1.png"
-                        alt="shape"
-                        className="main-slider-one__content__shape-one slider-image"
-                      />
-                    </div>
-                    {/* /.main-slider-one__content */}
-                  </div>
-                  {/* /.col-xl-6 col-lg-9 */}
-                </div>
-                {/* /.row */}
-              </div>
-              {/* /.container */}
-              <div className="main-slider-one__shape-box" />
-              {/* /.main-slider-one__shape-box */}
-              <img
-                src="assets/images/shapes/main-slider-shape-1-2.png"
-                alt="shape"
-                className="main-slider-one__shape-one slider-image"
-              />
             </div>
-            {/* /.main-slider-one__item */}
             <div className="main-slider-one__item">
               <div className="main-slider-one__image-left" />
               {/* /.main-slider-one__image-left */}
@@ -297,8 +303,7 @@ function home() {
                 className="main-slider-one__shape-one slider-image"
               />
             </div>
-            {/* /.main-slider-one__item */}
-          </div>
+          </OwlCarousel>
           {/* /.main-slider-one__carousel */}
         </section>
         {/* /.main-slider-one */}
@@ -1482,13 +1487,8 @@ function home() {
                 <p className="main-footer__copyright">
                   Copyright © 2024 All rights reserved{" "}
                   <span className="dynamic-year" /> | Developed by{" "}
-                  <a href="https://devasil-portfolio.vercel.app/">
-                    Asil
-                  </a>{" "}
-                  &{" "}
-                  <a href="https://devgulamnabi.vercel.app/">
-                    Gulamnabi
-                  </a>
+                  <a href="https://devasil-portfolio.vercel.app/">Asil</a> &{" "}
+                  <a href="https://devgulamnabi.vercel.app/">Gulamnabi</a>
                 </p>
               </div>
               {/* /.main-footer__inner */}
