@@ -107,202 +107,200 @@ function home() {
 
         <section className="main-slider-one" id="home">
           <OwlCarousel className="main-slider-one__carousel" {...options}>
-            <div className="main-slider-one__item">
-              <div className="main-slider-one__item">
-                <div className="main-slider-one__image-left" />
-                {/* /.main-slider-one__image-left */}
-                <div className="main-slider-one__image-right">
-                  <div className="main-slider-one__image-right__inner">
-                    <div
-                      className="main-slider-one__image-right__bg"
-                      style={{
-                        backgroundImage:
-                          "url(assets/images/main-slider/error404.png)",
-                      }}
-                    />
-                  </div>
-                  {/* /.main-slider-one__image-right__inner */}
-                  <img
-                    src="assets/images/main-slider/ahmed-sir.png"
-                    alt="sliderimage"
-                    className="main-slider-one__image-right__image"
-                  />
-                </div>
-                {/* /.main-slider-one__image-right */}
-                <div className="container">
-                  <div className="row">
-                    <div className="col-xl-6 col-lg-9">
-                      <div className="main-slider-one__content">
-                        <div className="main-slider-one__top">
-                          <div className="main-slider-one__top__inner">
-                            <div className="main-slider-one__top__box">
-                              <div className="main-slider-one__top__box__inner" />
-                            </div>
-                            {/* /.main-slider-one__top__box */}
-                            <h6 className="main-slider-one__tagline">
-                              Welcome To Programmers Club
-                            </h6>
-                          </div>
-                          {/* /.main-slider-one__top__inner */}
-                        </div>
-                        {/* /.main-slider-one__top */}
-                        <h2 className="main-slider-one__title">
-                          <span className="main-slider-one__title__inner">
-                            Welcome to <br />
-                            <span className="main-slider-one__title__text">
-                              Programmers club
-                            </span>
-                          </span>
-                        </h2>
-                        {/* /.title */}
-                        <div className="main-slider-one__description">
-                          <p className="main-slider-one__text">
-                            Join us to enhance your tech skills, participate in
-                            hackathons, workshops, and coding competitions, and
-                            collaborate on exciting projects. Let’s innovate
-                            together!
-                          </p>
-                          {/* /.text */}
-                        </div>
-                        {/* /.description */}
-                        <div className="main-slider-one__button">
-                          <div className="main-slider-one__button__inner">
-                            <a
-                              href="contact.html"
-                              className="main-slider-one__btn-1 insuba-btn"
-                            >
-                              <span>Connect With Us</span>
-                              <span className="insuba-btn__icon-box">
-                                <span className="insuba-btn__icon">
-                                  <i className="fas fa-arrow-right" />
-                                </span>
-                              </span>{" "}
-                            </a>
-                            {/* /.insuba-btn */}
-                          </div>
-                        </div>
-                        {/* /.button */}
-                        <div className="main-slider-one__content__shape-box" />
-                        {/* /.main-slider-one__content__shape-box */}
-                        <img
-                          src="assets/images/shapes/main-slider-shape-1-1.png"
-                          alt="shape"
-                          className="main-slider-one__content__shape-one slider-image"
-                        />
-                      </div>
-                      {/* /.main-slider-one__content */}
-                    </div>
-                    {/* /.col-xl-6 col-lg-9 */}
-                  </div>
-                  {/* /.row */}
-                </div>
-                {/* /.container */}
-                <div className="main-slider-one__shape-box" />
-                {/* /.main-slider-one__shape-box */}
-                <img
-                  src="assets/images/shapes/main-slider-shape-1-2.png"
-                  alt="shape"
-                  className="main-slider-one__shape-one slider-image"
-                />
-              </div>
-            </div>
-            <div className="main-slider-one__item">
-              <div className="main-slider-one__image-left" />
-              {/* /.main-slider-one__image-left */}
-              <div className="main-slider-one__image-right">
-                <div className="main-slider-one__image-right__inner">
-                  <div
-                    className="main-slider-one__image-right__bg"
-                    style={{
-                      backgroundImage:
-                        "url(assets/images/main-slider/banner-2.png)",
-                    }}
-                  />
-                </div>
-                {/* /.main-slider-one__image-right__inner */}
-                <img
-                  src="assets/images/main-slider/ahlam-mam.png"
-                  alt="sliderimage"
-                  className="main-slider-one__image-right__image"
-                />
-              </div>
-              {/* /.main-slider-one__image-right */}
-              <div className="container">
-                <div className="row">
-                  <div className="col-xl-6 col-lg-9">
-                    <div className="main-slider-one__content">
-                      <div className="main-slider-one__top">
-                        <div className="main-slider-one__top__inner">
-                          <div className="main-slider-one__top__box">
-                            <div className="main-slider-one__top__box__inner" />
-                          </div>
-                          {/* /.main-slider-one__top__box */}
-                          <h6 className="main-slider-one__tagline">
-                            Welcome To Programmer club
-                          </h6>
-                        </div>
-                        {/* /.main-slider-one__top__inner */}
-                      </div>
-                      {/* /.main-slider-one__top */}
-                      <h2 className="main-slider-one__title">
-                        <span className="main-slider-one__title__inner">
-                          Welcome to <br />
-                          <span className="main-slider-one__title__text">
-                            Programmers club
-                          </span>
-                        </span>
-                      </h2>
-                      {/* /.title */}
-                      <div className="main-slider-one__description">
-                        <p className="main-slider-one__text">
-                          Join us to enhance your tech skills, participate in
-                          hackathons, workshops, and coding competitions, and
-                          collaborate on exciting projects. Let’s innovate
-                          together!
-                        </p>
-                        {/* /.text */}
-                      </div>
-                      {/* /.description */}
-                      <div className="main-slider-one__button">
-                        <div className="main-slider-one__button__inner">
-                          <a
-                            href="contact.html"
-                            className="main-slider-one__btn-1 insuba-btn"
-                          >
-                            <span>Connect With Us</span>
-                            <span className="insuba-btn__icon-box">
-                              <span className="insuba-btn__icon">
-                                <i className="fas fa-arrow-right" />
-                              </span>
-                            </span>{" "}
-                          </a>
-                          {/* /.insuba-btn */}
-                        </div>
-                      </div>
-                      {/* /.button */}
-                      <div className="main-slider-one__content__shape-box" />
-                      {/* /.main-slider-one__content__shape-box */}
-                      <img
-                        src="assets/images/shapes/main-slider-shape-1-1.png"
-                        alt="shape"
-                        className="main-slider-one__content__shape-one slider-image"
-                      />
-                    </div>
-                    {/* /.main-slider-one__content */}
-                  </div>
-                  {/* /.col-xl-6 col-lg-9 */}
-                </div>
-                {/* /.row */}
-              </div>
-              {/* /.container */}
-              <div className="main-slider-one__shape-box" />
-              {/* /.main-slider-one__shape-box */}
-              <img
-                src="assets/images/shapes/main-slider-shape-1-2.png"
-                alt="shape"
-                className="main-slider-one__shape-one slider-image"
+          <div className="main-slider-one__item">
+          <div className="main-slider-one__image-left" />
+          {/* /.main-slider-one__image-left */}
+          <div className="main-slider-one__image-right">
+            <div className="main-slider-one__image-right__inner">
+              <div
+                className="main-slider-one__image-right__bg"
+                style={{
+                  backgroundImage:
+                    "url(assets/images/main-slider/error404.png)",
+                }}
               />
             </div>
+            {/* /.main-slider-one__image-right__inner */}
+            <img
+              src="assets/images/main-slider/ahmed-sir.png"
+              alt="sliderimage"
+              className="main-slider-one__image-right__image"
+            />
+          </div>
+          {/* /.main-slider-one__image-right */}
+          <div className="container">
+            <div className="row">
+              <div className="col-xl-6 col-lg-9">
+                <div className="main-slider-one__content">
+                  <div className="main-slider-one__top">
+                    <div className="main-slider-one__top__inner">
+                      <div className="main-slider-one__top__box">
+                        <div className="main-slider-one__top__box__inner" />
+                      </div>
+                      {/* /.main-slider-one__top__box */}
+                      <h6 className="main-slider-one__tagline">
+                        Welcome To Programmers Club
+                      </h6>
+                    </div>
+                    {/* /.main-slider-one__top__inner */}
+                  </div>
+                  {/* /.main-slider-one__top */}
+                  <h2 className="main-slider-one__title">
+                    <span className="main-slider-one__title__inner">
+                      Welcome to <br />
+                      <span className="main-slider-one__title__text">
+                        Programmers club
+                      </span>
+                    </span>
+                  </h2>
+                  {/* /.title */}
+                  <div className="main-slider-one__description">
+                    <p className="main-slider-one__text">
+                      Join us to enhance your tech skills, participate in
+                      hackathons, workshops, and coding competitions, and
+                      collaborate on exciting projects. Let’s innovate together!
+                    </p>
+                    {/* /.text */}
+                  </div>
+                  {/* /.description */}
+                  <div className="main-slider-one__button">
+                    <div className="main-slider-one__button__inner">
+                      <a
+                        href="contact.html"
+                        className="main-slider-one__btn-1 insuba-btn"
+                      >
+                        <span>Connect With Us</span>
+                        <span className="insuba-btn__icon-box">
+                          <span className="insuba-btn__icon">
+                            <i className="fas fa-arrow-right" />
+                          </span>
+                        </span>{" "}
+                      </a>
+                      {/* /.insuba-btn */}
+                    </div>
+                  </div>
+                  {/* /.button */}
+                  <div className="main-slider-one__content__shape-box" />
+                  {/* /.main-slider-one__content__shape-box */}
+                  <img
+                    src="assets/images/shapes/main-slider-shape-1-1.png"
+                    alt="shape"
+                    className="main-slider-one__content__shape-one slider-image"
+                  />
+                </div>
+                {/* /.main-slider-one__content */}
+              </div>
+              {/* /.col-xl-6 col-lg-9 */}
+            </div>
+            {/* /.row */}
+          </div>
+          {/* /.container */}
+          <div className="main-slider-one__shape-box" />
+          {/* /.main-slider-one__shape-box */}
+          <img
+            src="assets/images/shapes/main-slider-shape-1-2.png"
+            alt="shape"
+            className="main-slider-one__shape-one slider-image"
+          />
+        </div>
+        {/* /.main-slider-one__item */}
+        <div className="main-slider-one__item">
+          <div className="main-slider-one__image-left" />
+          {/* /.main-slider-one__image-left */}
+          <div className="main-slider-one__image-right">
+            <div className="main-slider-one__image-right__inner">
+              <div
+                className="main-slider-one__image-right__bg"
+                style={{
+                  backgroundImage:
+                    "url(assets/images/main-slider/banner-2.png)",
+                }}
+              />
+            </div>
+            {/* /.main-slider-one__image-right__inner */}
+            <img
+              src="assets/images/main-slider/ahlam-mam.png"
+              alt="sliderimage"
+              className="main-slider-one__image-right__image"
+            />
+          </div>
+          {/* /.main-slider-one__image-right */}
+          <div className="container">
+            <div className="row">
+              <div className="col-xl-6 col-lg-9">
+                <div className="main-slider-one__content">
+                  <div className="main-slider-one__top">
+                    <div className="main-slider-one__top__inner">
+                      <div className="main-slider-one__top__box">
+                        <div className="main-slider-one__top__box__inner" />
+                      </div>
+                      {/* /.main-slider-one__top__box */}
+                      <h6 className="main-slider-one__tagline">
+                        Welcome To Programmer club
+                      </h6>
+                    </div>
+                    {/* /.main-slider-one__top__inner */}
+                  </div>
+                  {/* /.main-slider-one__top */}
+                  <h2 className="main-slider-one__title">
+                    <span className="main-slider-one__title__inner">
+                      Welcome to <br />
+                      <span className="main-slider-one__title__text">
+                        Programmers club
+                      </span>
+                    </span>
+                  </h2>
+                  {/* /.title */}
+                  <div className="main-slider-one__description">
+                    <p className="main-slider-one__text">
+                      Join us to enhance your tech skills, participate in
+                      hackathons, workshops, and coding competitions, and
+                      collaborate on exciting projects. Let’s innovate together!
+                    </p>
+                    {/* /.text */}
+                  </div>
+                  {/* /.description */}
+                  <div className="main-slider-one__button">
+                    <div className="main-slider-one__button__inner">
+                      <a
+                        href="contact.html"
+                        className="main-slider-one__btn-1 insuba-btn"
+                      >
+                        <span>Connect With Us</span>
+                        <span className="insuba-btn__icon-box">
+                          <span className="insuba-btn__icon">
+                            <i className="fas fa-arrow-right" />
+                          </span>
+                        </span>{" "}
+                      </a>
+                      {/* /.insuba-btn */}
+                    </div>
+                  </div>
+                  {/* /.button */}
+                  <div className="main-slider-one__content__shape-box" />
+                  {/* /.main-slider-one__content__shape-box */}
+                  <img
+                    src="assets/images/shapes/main-slider-shape-1-1.png"
+                    alt="shape"
+                    className="main-slider-one__content__shape-one slider-image"
+                  />
+                </div>
+                {/* /.main-slider-one__content */}
+              </div>
+              {/* /.col-xl-6 col-lg-9 */}
+            </div>
+            {/* /.row */}
+          </div>
+          {/* /.container */}
+          <div className="main-slider-one__shape-box" />
+          {/* /.main-slider-one__shape-box */}
+          <img
+            src="assets/images/shapes/main-slider-shape-1-2.png"
+            alt="shape"
+            className="main-slider-one__shape-one slider-image"
+          />
+        </div>
+        {/* /.main-slider-one__item */}
           </OwlCarousel>
           {/* /.main-slider-one__carousel */}
         </section>
